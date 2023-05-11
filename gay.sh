@@ -1,1 +1,1 @@
-python /home/gay.py
+python3 /home/gay.py
